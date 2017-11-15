@@ -1,0 +1,6 @@
+version: '3'
+services:
+  tester:
+    build: .
+    volumes:
+    - ~/.gradle:/home/gradle/.gradle
